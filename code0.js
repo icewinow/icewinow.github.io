@@ -23,7 +23,7 @@ gdjs.startCode.mapOfGDgdjs_46startCode_46GDStartObjects1Objects = Hashtable.newF
 
 gdjs.startCode.condition0IsTrue_0.val = false;
 {
-gdjs.startCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+gdjs.startCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }if (gdjs.startCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "level 1", false);
 }}
@@ -38,7 +38,7 @@ gdjs.startCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 
 gdjs.startCode.condition0IsTrue_0.val = false;
 {
-gdjs.startCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+gdjs.startCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }if (gdjs.startCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.stopGame(runtimeScene);
 }}

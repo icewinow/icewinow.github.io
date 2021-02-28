@@ -35,7 +35,7 @@ gdjs.pauseCode.mapOfGDgdjs_46pauseCode_46GDContinueObjects1Objects = Hashtable.n
 
 gdjs.pauseCode.condition0IsTrue_0.val = false;
 {
-gdjs.pauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+gdjs.pauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }if (gdjs.pauseCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.popScene(runtimeScene);
 }}
@@ -50,7 +50,7 @@ gdjs.pauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 
 gdjs.pauseCode.condition0IsTrue_0.val = false;
 {
-gdjs.pauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+gdjs.pauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }if (gdjs.pauseCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "start", false);
 }}
@@ -65,7 +65,7 @@ gdjs.pauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed
 
 gdjs.pauseCode.condition0IsTrue_0.val = false;
 {
-gdjs.pauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+gdjs.pauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }if (gdjs.pauseCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.stopGame(runtimeScene);
 }}
