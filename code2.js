@@ -124,7 +124,7 @@ gdjs.level_322Code.eventsList0 = function(runtimeScene) {
 gdjs.level_322Code.condition0IsTrue_0.val = false;
 {
 {gdjs.level_322Code.conditionTrue_1 = gdjs.level_322Code.condition0IsTrue_0;
-gdjs.level_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9173692);
+gdjs.level_322Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9168916);
 }
 }if (gdjs.level_322Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "jump.wav", false, 100, 1);
