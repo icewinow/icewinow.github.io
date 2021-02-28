@@ -82,7 +82,7 @@ gdjs.copyArray(runtimeScene.getObjects("offon"), gdjs.pauseCode.GDoffonObjects2)
 gdjs.pauseCode.condition0IsTrue_0.val = false;
 gdjs.pauseCode.condition1IsTrue_0.val = false;
 {
-gdjs.pauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+gdjs.pauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }if ( gdjs.pauseCode.condition0IsTrue_0.val ) {
 {
 for(var i = 0, k = 0, l = gdjs.pauseCode.GDoffonObjects2.length;i<l;++i) {
@@ -107,7 +107,7 @@ gdjs.copyArray(runtimeScene.getObjects("offon"), gdjs.pauseCode.GDoffonObjects1)
 gdjs.pauseCode.condition0IsTrue_0.val = false;
 gdjs.pauseCode.condition1IsTrue_0.val = false;
 {
-gdjs.pauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
+gdjs.pauseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }if ( gdjs.pauseCode.condition0IsTrue_0.val ) {
 {
 for(var i = 0, k = 0, l = gdjs.pauseCode.GDoffonObjects1.length;i<l;++i) {
