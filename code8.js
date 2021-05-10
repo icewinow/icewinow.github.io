@@ -24,6 +24,16 @@ gdjs.DeathCode.condition0IsTrue_0.val = gdjs.evtTools.input.isKeyPressed(runtime
 }
 
 
+{
+
+
+{
+{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(0);
+}}
+
+}
+
+
 };
 
 gdjs.DeathCode.func = function(runtimeScene) {

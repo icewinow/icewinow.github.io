@@ -73,6 +73,7 @@ gdjs.copyArray(runtimeScene.getObjects("Mouse"), gdjs.startCode.GDMouseObjects1)
     gdjs.startCode.GDMouseObjects1[i].setPosition(gdjs.evtTools.input.getMouseX(runtimeScene, "", 0) - 50,gdjs.evtTools.input.getMouseY(runtimeScene, "", 0) - 50);
 }
 }{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)));
+}{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(0);
 }}
 
 }
