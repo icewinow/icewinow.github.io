@@ -1552,7 +1552,7 @@ gdjs.copyArray(runtimeScene.getObjects("Slime_bullet"), gdjs.level_321Code.GDSli
 gdjs.level_321Code.condition0IsTrue_0.val = false;
 {
 {gdjs.level_321Code.conditionTrue_1 = gdjs.level_321Code.condition0IsTrue_0;
-gdjs.level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10978164);
+gdjs.level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10775652);
 }
 }if (gdjs.level_321Code.condition0IsTrue_0.val) {
 /* Reuse gdjs.level_321Code.GDbossObjects2 */
@@ -1575,7 +1575,7 @@ gdjs.level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerO
 gdjs.level_321Code.condition0IsTrue_0.val = false;
 {
 {gdjs.level_321Code.conditionTrue_1 = gdjs.level_321Code.condition0IsTrue_0;
-gdjs.level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9587140);
+gdjs.level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15060660);
 }
 }if (gdjs.level_321Code.condition0IsTrue_0.val) {
 /* Reuse gdjs.level_321Code.GDbossObjects2 */
@@ -1598,7 +1598,7 @@ gdjs.level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerO
 gdjs.level_321Code.condition0IsTrue_0.val = false;
 {
 {gdjs.level_321Code.conditionTrue_1 = gdjs.level_321Code.condition0IsTrue_0;
-gdjs.level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8587996);
+gdjs.level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9588140);
 }
 }if (gdjs.level_321Code.condition0IsTrue_0.val) {
 /* Reuse gdjs.level_321Code.GDbossObjects2 */
@@ -1621,7 +1621,7 @@ gdjs.level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerO
 gdjs.level_321Code.condition0IsTrue_0.val = false;
 {
 {gdjs.level_321Code.conditionTrue_1 = gdjs.level_321Code.condition0IsTrue_0;
-gdjs.level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7186244);
+gdjs.level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7885108);
 }
 }if (gdjs.level_321Code.condition0IsTrue_0.val) {
 /* Reuse gdjs.level_321Code.GDbossObjects2 */
@@ -3282,7 +3282,7 @@ gdjs.level_321Code.condition0IsTrue_0.val = false;
 gdjs.level_321Code.condition1IsTrue_0.val = false;
 {
 {gdjs.level_321Code.conditionTrue_1 = gdjs.level_321Code.condition0IsTrue_0;
-gdjs.level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10828412);
+gdjs.level_321Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8210420);
 }
 }if ( gdjs.level_321Code.condition0IsTrue_0.val ) {
 {
@@ -3434,7 +3434,7 @@ gdjs.copyArray(runtimeScene.getObjects("boss"), gdjs.level_321Code.GDbossObjects
 gdjs.level_321Code.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.level_321Code.GDbossObjects1.length;i<l;++i) {
-    if ( gdjs.level_321Code.GDbossObjects1[i].timerElapsedTime("throw_bee", 12) ) {
+    if ( gdjs.level_321Code.GDbossObjects1[i].timerElapsedTime("throw_bee", 17) ) {
         gdjs.level_321Code.condition0IsTrue_0.val = true;
         gdjs.level_321Code.GDbossObjects1[k] = gdjs.level_321Code.GDbossObjects1[i];
         ++k;
@@ -3460,7 +3460,7 @@ gdjs.copyArray(runtimeScene.getObjects("boss"), gdjs.level_321Code.GDbossObjects
 gdjs.level_321Code.condition0IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.level_321Code.GDbossObjects1.length;i<l;++i) {
-    if ( gdjs.level_321Code.GDbossObjects1[i].timerElapsedTime("throw_sipnner", 8) ) {
+    if ( gdjs.level_321Code.GDbossObjects1[i].timerElapsedTime("throw_sipnner", 12) ) {
         gdjs.level_321Code.condition0IsTrue_0.val = true;
         gdjs.level_321Code.GDbossObjects1[k] = gdjs.level_321Code.GDbossObjects1[i];
         ++k;
